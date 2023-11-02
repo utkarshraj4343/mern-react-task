@@ -1,0 +1,40 @@
+.colorpicker{
+    text-align: center;
+    padding-top: 20px;
+    background-color: rgb(223, 197, 255);
+    height: 100vh;
+    width: 100vw;
+  }
+  .color-picker {
+    display: inline-block;
+    background-color: #f2b7b2;
+    padding: 200px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    width: 900px;
+  }
+  
+  button{
+    background-color: #5fd31b;
+    padding:10px;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .color-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  
+  .color {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    color:cadetblue;
+  }
+  
